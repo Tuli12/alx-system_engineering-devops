@@ -1,0 +1,2 @@
+#!/bin/bash
+sort getent /etc/passwd | cut -d ":" -fl,6
